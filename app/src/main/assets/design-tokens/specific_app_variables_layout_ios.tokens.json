@@ -1,0 +1,102 @@
+{
+  "ds": {
+    "layout": {
+      "width": {
+        "$type": "number",
+        "$value": 390,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:86",
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ]
+        }
+      },
+      "min-width": {
+        "$type": "number",
+        "$value": 390,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:87",
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ]
+        }
+      },
+      "max-width": {
+        "$type": "number",
+        "$value": 767,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:88",
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ]
+        }
+      },
+      "columns": {
+        "$type": "number",
+        "$value": 4,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:89",
+          "com.figma.scopes": [],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:a8f8be42fa9dfbc24d08747bef470d0370d530e6/64474:385",
+            "targetVariableName": "ds/sizing/04",
+            "targetVariableSetId": "VariableCollectionId:79f90ec54cd62ccb3eb03c04f39e0b2852ae6104/64474:159",
+            "targetVariableSetName": "primitive"
+          }
+        }
+      },
+      "gutter": {
+        "$type": "number",
+        "$value": 16,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:90",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:5ed1dd86ede59e390d6c21e9f7e61f6f191fa0cd/64474:1545",
+            "targetVariableName": "ds/spacing/m-2",
+            "targetVariableSetId": "VariableCollectionId:fbc1e4595b00c9678772c8c6cc2a2dd10765fe88/54600:11801",
+            "targetVariableSetName": "semantics-global"
+          }
+        }
+      },
+      "margin": {
+        "$type": "number",
+        "$value": 16,
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28035:91",
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:5ed1dd86ede59e390d6c21e9f7e61f6f191fa0cd/64474:1545",
+            "targetVariableName": "ds/spacing/m-2",
+            "targetVariableSetId": "VariableCollectionId:fbc1e4595b00c9678772c8c6cc2a2dd10765fe88/54600:11801",
+            "targetVariableSetName": "semantics-global"
+          }
+        }
+      },
+      "base": {
+        "$type": "string",
+        "$value": "Cupra Screen",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:28036:96",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.type": "string",
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:638ade90679b0b7681a76fbbe7c762787cdff963/76623:638",
+            "targetVariableName": "ds/typography/family/primary",
+            "targetVariableSetId": "VariableCollectionId:753530e679816b32d1570d48b3926281cd169821/76623:70",
+            "targetVariableSetName": "semantics-theming"
+          }
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "iOS"
+  }
+}

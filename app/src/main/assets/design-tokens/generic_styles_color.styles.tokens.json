@@ -1,0 +1,812 @@
+{
+  "ds": {
+    "gradient": {
+      "bg": {
+        "black-vertical": {
+          "$type": "gradient",
+          "$value": {
+            "type": "linear",
+            "angle": 90,
+            "stops": [
+              {
+                "color": "{ds.color.gradient.primary.level-none}",
+                "position": 0
+              },
+              {
+                "color": "{ds.color.gradient.primary.level-02}",
+                "position": 1
+              }
+            ]
+          }
+        },
+        "black-vertical-strong": {
+          "$type": "gradient",
+          "$value": {
+            "type": "linear",
+            "angle": 90,
+            "stops": [
+              {
+                "color": "{ds.color.gradient.primary.level-none}",
+                "position": 0
+              },
+              {
+                "color": "{ds.color.gradient.primary.level-04}",
+                "position": 1
+              }
+            ]
+          }
+        },
+        "black-horizontal": {
+          "$type": "gradient",
+          "$value": {
+            "type": "linear",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "{ds.color.gradient.primary.level-none}",
+                "position": 0
+              },
+              {
+                "color": "{ds.color.gradient.primary.level-01}",
+                "position": 1
+              }
+            ]
+          }
+        },
+        "black-horizontal-strong": {
+          "$type": "gradient",
+          "$value": {
+            "type": "linear",
+            "angle": 180,
+            "stops": [
+              {
+                "color": "{ds.color.gradient.primary.level-none}",
+                "position": 0
+              },
+              {
+                "color": "{ds.color.gradient.primary.level-03}",
+                "position": 1
+              }
+            ]
+          }
+        }
+      }
+    },
+    "button": {
+      "bg": {
+        "color": {
+          "primary": {
+            "default": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.default-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.default-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "hover": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "focus": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "pressed": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.pressed-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.pressed-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "icon-button": {
+      "bg": {
+        "color": {
+          "primary": {
+            "default": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.default-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.default-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "hover": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "focus": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "pressed": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.brand.bg.pressed-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.brand.bg.pressed-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          },
+          "secondary": {
+            "default": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 179,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.default-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.default-mid}",
+                    "position": 0.85
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.default-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "hover": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 179,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-mid}",
+                    "position": 0.9
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "focus": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 179,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-mid}",
+                    "position": 0.9
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "pressed": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 179,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.pressed-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.pressed-mid}",
+                    "position": 0.95
+                  },
+                  {
+                    "color": "{ds.color.interaction.subtle-alternative.bg.pressed-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          },
+          "quaternary": {
+            "default": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.default-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.default-mid}",
+                    "position": 0.65
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.default-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "hover": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-mid}",
+                    "position": 0.55
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "focus": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-mid}",
+                    "position": 0.55
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.hover-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "pressed": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.pressed-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.pressed-mid}",
+                    "position": 0.45
+                  },
+                  {
+                    "color": "{ds.color.interaction.minimal-alternative.bg.pressed-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "card": {
+      "bg": {
+        "color": {
+          "default": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "hover": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.hover-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.hover-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.hover-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "pressed": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.pressed-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.pressed-mid}",
+                  "position": 0.95
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.pressed-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "active": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-mid}",
+                  "position": 0.95
+                },
+                {
+                  "color": "{ds.color.interaction.subtle-alternative.bg.default-end}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "divider": {
+      "bg": {
+        "color": {
+          "secondary": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 90,
+              "stops": [
+                {
+                  "color": "{ds.color.border.default-subtle}",
+                  "position": 0.4
+                },
+                {
+                  "color": "{ds.color.border.default-faint}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "tertiary": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 90,
+              "stops": [
+                {
+                  "color": "{ds.color.border.accent.faint}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.border.accent.subtle}",
+                  "position": 0.5
+                },
+                {
+                  "color": "{ds.color.border.accent.faint}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "dropdown-select": {
+      "bg": {
+        "color": {
+          "default": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.control.bg.gradient.default-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.default-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.default-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "hover": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-mid}",
+                  "position": 0.9
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "focus": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-mid}",
+                  "position": 0.9
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.hover-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "pressed": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.control.bg.gradient.pressed-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.pressed-mid}",
+                  "position": 0.95
+                },
+                {
+                  "color": "{ds.color.control.bg.gradient.pressed-end}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "indicator": {
+      "bg": {
+        "color": {
+          "active": {
+            "primary": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 47,
+                "stops": [
+                  {
+                    "color": "{ds.color.indicator.bg.progress.default-start}",
+                    "position": 0
+                  },
+                  {
+                    "color": "{ds.color.indicator.bg.progress.default-mid}",
+                    "position": 0.65
+                  },
+                  {
+                    "color": "{ds.color.indicator.bg.progress.default-end}",
+                    "position": 1
+                  }
+                ]
+              }
+            },
+            "secondary": {
+              "$type": "color",
+              "$value": "{ds.color.indicator.bg.progress.secondary.default}"
+            },
+            "tertiary": {
+              "$type": "gradient",
+              "$value": {
+                "type": "linear",
+                "angle": 90,
+                "stops": [
+                  {
+                    "color": "{ds.color.indicator.bg.progress.tertiary.default-end}",
+                    "position": 0.25
+                  },
+                  {
+                    "color": "{ds.color.indicator.bg.progress.tertiary.default-start}",
+                    "position": 0.76
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "skeleton": {
+      "bg": {
+        "color": {
+          "default": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 90,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.skeleton.start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.skeleton.mid}",
+                  "position": 0.5
+                },
+                {
+                  "color": "{ds.color.surface.skeleton.end}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "toast": {
+      "bg": {
+        "color": {
+          "error": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.error-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.error-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.error-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "warning": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.warning-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.warning-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.warning-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "info": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.info-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.info-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.info-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "success": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.success-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.success-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.success-end}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "generic": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 179,
+              "stops": [
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.generic-start}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.generic-mid}",
+                  "position": 0.85
+                },
+                {
+                  "color": "{ds.color.surface.feedback.elevated-subtle.generic-end}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
