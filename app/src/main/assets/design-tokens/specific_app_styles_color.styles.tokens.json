@@ -1,0 +1,279 @@
+{
+  "ds": {
+    "color": {
+      "gradient": {
+        "bg": {
+          "black-top": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "{ds.color.gradient.primary.level-full}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.gradient.primary.level-none}",
+                  "position": 0.44
+                }
+              ]
+            }
+          },
+          "black-top-soft": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "{ds.color.gradient.primary.level-full}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.gradient.primary.level-none}",
+                  "position": 0.22
+                }
+              ]
+            }
+          },
+          "black-top-strong": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "{ds.color.gradient.primary.level-full}",
+                  "position": 0
+                },
+                {
+                  "color": "{ds.color.gradient.primary.level-02}",
+                  "position": 0.5
+                },
+                {
+                  "color": "{ds.color.gradient.primary.level-none}",
+                  "position": 1
+                }
+              ]
+            }
+          },
+          "black-bottom": {
+            "$type": "gradient",
+            "$value": {
+              "type": "linear",
+              "angle": 180,
+              "stops": [
+                {
+                  "color": "{ds.color.gradient.primary.level-none}",
+                  "position": 0.32
+                },
+                {
+                  "color": "{ds.color.gradient.primary.level-full}",
+                  "position": 1
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "tribe": {
+      "badge": {
+        "icon": {
+          "color": {
+            "gradient": {
+              "level-01": {
+                "$type": "gradient",
+                "$value": {
+                  "type": "radial",
+                  "angle": 191,
+                  "stops": [
+                    {
+                      "color": "{ds.color.copper.50}",
+                      "position": 0.25
+                    },
+                    {
+                      "color": "{ds.color.copper.100}",
+                      "position": 0.8
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "bg": {
+          "color": {
+            "gradient": {
+              "level-01": {
+                "$type": "gradient",
+                "$value": {
+                  "type": "linear",
+                  "angle": 217,
+                  "stops": [
+                    {
+                      "color": "{ds.specific.color.tribe.bronze.30}",
+                      "position": 0.35
+                    },
+                    {
+                      "color": "{ds.opacity.black.20}",
+                      "position": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "gradient": {
+              "level-01": {
+                "$type": "gradient",
+                "$value": {
+                  "type": "linear",
+                  "angle": 138,
+                  "stops": [
+                    {
+                      "color": "{ds.specific.opacity.utility.copper-80}",
+                      "position": 0
+                    },
+                    {
+                      "color": "{ds.color.border.default}",
+                      "position": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "tag": {
+        "bg": {
+          "color": {
+            "gradient": {
+              "level-01": {
+                "$type": "gradient",
+                "$description": "Bronze color",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-01.start}",
+                      "position": 0.19
+                    },
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-01.end}",
+                      "position": 1
+                    }
+                  ]
+                }
+              },
+              "level-02": {
+                "$type": "gradient",
+                "$description": "Silver color",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-02.start}",
+                      "position": 0.19
+                    },
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-02.end}",
+                      "position": 1
+                    }
+                  ]
+                }
+              },
+              "level-03": {
+                "$type": "gradient",
+                "$description": "Gold color",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-03.start}",
+                      "position": 0.19
+                    },
+                    {
+                      "color": "{ds.color.tribe.surface.element.gradient.level-03.end}",
+                      "position": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "pill": {
+        "bg": {
+          "color": {
+            "gradient": {
+              "level-01": {
+                "$type": "gradient",
+                "$description": "Copper color (generic)",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.color.copper.80}",
+                      "position": 0
+                    },
+                    {
+                      "color": "{ds.color.copper.100}",
+                      "position": 1
+                    }
+                  ]
+                }
+              },
+              "level-02": {
+                "$type": "gradient",
+                "$description": "Silver color",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.specific.color.tribe.silver.10}",
+                      "position": 0
+                    },
+                    {
+                      "color": "{ds.specific.color.tribe.silver.30}",
+                      "position": 1
+                    }
+                  ]
+                }
+              },
+              "level-03": {
+                "$type": "gradient",
+                "$description": "Gold color",
+                "$value": {
+                  "type": "linear",
+                  "angle": 180,
+                  "stops": [
+                    {
+                      "color": "{ds.specific.color.tribe.gold.10}",
+                      "position": 0
+                    },
+                    {
+                      "color": "{ds.specific.color.tribe.gold.30}",
+                      "position": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

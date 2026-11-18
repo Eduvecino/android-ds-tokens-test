@@ -1,0 +1,62 @@
+{
+  "ds": {
+    "tribe": {
+      "elevation": {
+        "shadow": {
+          "level-01": {
+            "$type": "shadow",
+            "$description": "bronze color",
+            "$value": [
+              {
+                "offsetX": "{ds.dimension.04}",
+                "offsetY": "{ds.dimension.00}",
+                "blur": "{ds.dimension.12}",
+                "spread": "{ds.dimension.00}",
+                "color": "{ds.specific.opacity.tribe.bronze.40}"
+              }
+            ]
+          },
+          "level-02": {
+            "$type": "shadow",
+            "$description": "Silver color",
+            "$value": [
+              {
+                "offsetX": "{ds.dimension.04}",
+                "offsetY": "{ds.dimension.00}",
+                "blur": "{ds.dimension.12}",
+                "spread": "{ds.dimension.00}",
+                "color": "{ds.specific.opacity.tribe.silver.40}"
+              }
+            ]
+          },
+          "level-03": {
+            "$type": "shadow",
+            "$description": "Gold color",
+            "$value": [
+              {
+                "offsetX": "{ds.dimension.04}",
+                "offsetY": "{ds.dimension.00}",
+                "blur": "{ds.dimension.12}",
+                "spread": "{ds.dimension.00}",
+                "color": "{ds.specific.opacity.tribe.gold.20}"
+              }
+            ]
+          },
+          "level-04": {
+            "$type": "shadow",
+            "$description": "Bronze color (soft)",
+            "$value": [
+              {
+                "offsetX": "{ds.dimension.04}",
+                "offsetY": "{ds.dimension.00}",
+                "blur": "{ds.dimension.12}",
+                "spread": "{ds.dimension.00}",
+                "color": "{ds.specific.opacity.tribe.bronze.10}"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
